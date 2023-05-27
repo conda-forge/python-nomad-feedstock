@@ -1,5 +1,5 @@
 {% set name = "python-nomad" %}
-{% set version = "1.4.1" %}
+{% set version = "2.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-nomad-{{ version }}.tar.gz
-  sha256: 087a7d5d2af9fd8ce5da70d29e4b456c6b8b0ea3cd16613ed50f6eb8ad6cdba6
+  sha256: e48c87370d40ac4f1f53d0e849030690323d77f3a2475608ffb9d33de1482be0
 
 build:
   number: 0
