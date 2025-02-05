@@ -1,5 +1,5 @@
 {% set name = "python-nomad" %}
-{% set version = "2.0.1" %}
+{% set version = "2.1.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 4d70a6e85c58a1abe33770128a843bc97415b030d779d0ca0601863fc82141d3
+  sha256: 53e6d9ec6f66b672ae9d6d03591a24be2d8b5450dd7fdbe1003831cb9b77f847
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
